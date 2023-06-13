@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
+import pexel from '../assets/images/pexels-charliehelen-robinson-6622518.jpg'
 
 function Section() {
     return (
@@ -10,7 +11,7 @@ function Section() {
                 <h3 className="text-center">subtitle</h3>
             </Container>
             <Container className="section-image-container">
-                <Image src="https://placehold.co/600x400" fluid />
+                <Image className="section-image" src={pexel} />
             </Container>
         </Container>
         
