@@ -1,6 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Section from "../components/Section";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Projects from "../components/Projects";
 
 import { Container } from "react-bootstrap";
 
@@ -9,7 +11,9 @@ function HomePage(props) {
 return (
     <Container>
         <Hero/>
-        <Section/>
+        <About/>
+        <Projects/>
+        <Contact/>
     </Container>
        
     

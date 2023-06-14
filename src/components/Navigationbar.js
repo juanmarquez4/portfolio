@@ -22,8 +22,9 @@ function NavigationBar () {
         <Navbar.Collapse id="basic-navbar-nav" className='p-2'>
           <Nav className="ms-auto">
            <Link className='nav-link' to="/">Home</Link>
-           <Link className='nav-link' to="/about">About</Link>
-           <Link className='nav-link' to="/contact">Contact</Link>
+           <a className='nav-link' href="#about">About</a>
+           <a className='nav-link' href="#projects">Projects</a>
+           <a className='nav-link' href="#contact">Contact</a>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
