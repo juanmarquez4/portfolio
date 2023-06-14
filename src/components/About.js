@@ -11,7 +11,7 @@ return (
                 <Image thumbnail className="" src={wave} fluid style={{height:"500px"}} />
             </div>
         </Container>
-        <Container id="hero-text-container"  className="d-flex flex-column">
+        <Container id="hero-text-container"  className="d-flex flex-column my-auto">
             <h1>About works!</h1>
             <p>Hello, My name is Juan Marquez. A Front-end Web Developer based in Sydney, Australia.</p>
         </Container>

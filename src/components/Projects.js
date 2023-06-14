@@ -6,7 +6,7 @@ function Projects() {
     return (
     <Container id="projects" fluid className="container d-flex flex-column text-dark p-5">
         <Container fluid className="container d-inline-flex text-dark p-0">
-            <Container className="section-text-container">
+            <Container className="section-text-container my-auto">
                 <h2 className="display-4 fw-bold text-center">Project#1 </h2>
                 <h3 className="text-center">subtitle</h3>
             </Container>
@@ -18,7 +18,7 @@ function Projects() {
         </Container>
         
         <Container fluid className="container d-inline-flex text-dark p-0">
-            <Container className="section-text-container">
+            <Container className="section-text-container my-auto">
                 <h2 className="display-4 fw-bold text-center">Project#2 </h2>
                 <h3 className="text-center">subtitle</h3>
             </Container>
