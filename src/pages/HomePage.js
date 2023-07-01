@@ -9,10 +9,13 @@ import { Container } from "react-bootstrap";
 
 function HomePage(props) {
 return (
-    <Container>
+    <Container className="container">
         <Hero/>
+        <hr className="m-0" />
         <About/>
+        <hr className="m-0" />
         <Projects/>
+        <hr className="m-0" />
         <Contact/>
     </Container>
        

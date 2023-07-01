@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 
 function Contact(props) {
 return (
-    <Container id="contact" fluid className="container d-inline-flex text-dark p-5">
+    <Container id="contact" fluid className="contact-container d-inline-flex text-dark p-5">
         <Container id="hero-text-container"  className="d-flex flex-column my-auto">
             <h1 className="text-center">Contact works!</h1>
             <p className="text-center">Reach me at</p>

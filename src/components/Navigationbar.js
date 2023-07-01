@@ -7,7 +7,7 @@ import { Navbar, Nav} from 'react-bootstrap';
 
 function NavigationBar () {
     return (
-    <Navbar bg="transparent" expand='lg'>
+    <Navbar  bg="transparent" expand='lg'>
         <Navbar.Brand href="#home" className='p-3'>
           {/* <img
             alt="logo"

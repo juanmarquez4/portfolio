@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 // import About from './components/About';
 // import Contact from './components/Contact';
-import NavigationBar from './components/Navigationbar';
+
 
 
 
@@ -40,7 +40,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container fluid className='p-0' >
-          <NavigationBar/>
+          {/* <NavigationBar/> */}
           <Routes>
             <Route 
              path='*'

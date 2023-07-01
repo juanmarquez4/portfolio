@@ -4,7 +4,7 @@ import pexel from '../assets/images/pexels-pixabay-256262.jpg'
 
 function Projects() {
     return (
-    <Container id="projects" fluid className="container d-flex flex-column text-dark p-5">
+    <Container id="projects" fluid className="projects-container d-flex flex-column text-dark p-5">
         <Container fluid className="container d-inline-flex text-dark p-0 pb-5">
             <Container className="section-text-container my-auto">
                 <h2 className="display-4 fw-bold text-center">Vilma Sanchez Laboratorio Clinico</h2>

@@ -5,7 +5,7 @@ import wave from '../assets/images/wave.jpeg'
 
 function About() {
 return (
-    <Container fluid id="about" className="container d-inline-flex text-dark p-5">
+    <Container fluid id="about" className="about-container d-inline-flex text-dark p-5">
         <Container id="hero-image-container" className="">
             <div className="position-relative top-50 start-50 translate-middle text-center">
                 <Image thumbnail className="" src={wave} style={{maxHeight:"500px"}} fluid />

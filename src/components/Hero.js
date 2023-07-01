@@ -3,13 +3,17 @@ import { Container, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import profile from '../assets/images/profile.jpg'
+import NavigationBar from './Navigationbar';
 
 
 
 function Hero() {
 
     return(
-    <Container  fluid className="container d-inline-flex text-dark p-5" style={{height:"100vh",position:"relative"}}>
+    <>
+    <NavigationBar className="navbar"/>
+    <Container  fluid className="hero-container d-inline-flex text-dark p-5">
+       
         <Container id="hero-text-container"  className="d-flex flex-column my-auto">
             <h1 className="display-4 fw-bold text-center">Front-End React Developer</h1>
             {/* <hr></hr> */}
@@ -25,6 +29,8 @@ function Hero() {
             </div>
         </Container>
     </Container>
+    </>
+   
     )
 }
 
