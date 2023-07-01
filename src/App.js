@@ -43,7 +43,7 @@ class App extends React.Component {
           <NavigationBar/>
           <Routes>
             <Route 
-             path='/'
+             path='*'
              element={<HomePage/>}/>
              {/* <Route 
              path='/about'
