@@ -71,6 +71,9 @@ code {
   min-height: 100vh;
 }
 
+.projects-container-solar {
+  min-height: 500px;
+}
 /* Contact Style */
 .contact-container {
   min-height: 100vh;
